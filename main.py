@@ -26,7 +26,7 @@ def recursiveProcessCase(n,vals):
         recursiveProcessCase((n-1), vals)
     return vals
 
-#takes input and preforms calculations for each case, returning sum of squares
+#takes input and preforms calculations for each case, returning sum of
 def processCase():
     x = int(input())
     val = sum(map(lambda n: n**2, (map (lambda y: int(y), input().split(" ", x)))))
